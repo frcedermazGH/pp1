@@ -1,0 +1,39 @@
+<html>
+
+<head>
+    <meta charset="utf-8" />
+</head>
+
+<body>
+    <h1>Formulario de registro</h1>
+
+    <form method="post" action="Ejer11.php">
+        Nombre:
+        <input name="nombre" type="text" maxlength="50"></input><br /><br />
+
+        Apellido:
+        <input name="apellido" type="text" maxlength="50"></input><br /><br />
+
+        Sexo:
+        <input name="sexo" type="radio" value="M">Masculino</input>
+        <input name="sexo" type="radio" value="F">Femenino</input>
+        <input name="sexo" type="radio" value="X">Binario</input><br /><br />
+
+        Estado civil:
+        <select name="estadocivil" id="estadocivil">
+            <option value="S">Soltero</option>
+            <option value="C">Casado</option>
+            <option value="D">Divorciado</option>
+        </select> <br /><br />
+
+        <input name="novedades-acepto" type="checkbox" checked>Deseo recibir información sobre
+        novedades y ofertas</input><br /><br />
+        <input name="normativa-acepto" type="checkbox">Declaro haber leido y aceptar las
+        condiciones generales del programa y la normativa sobre protección de
+        datos</input> <br /><br />
+
+        <input type="submit" value="Enviar"></input>
+    </form>
+</body>
+
+</html>
